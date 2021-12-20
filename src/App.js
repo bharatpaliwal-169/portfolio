@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React,{useState,useEffect} from 'react';
+import {BrowserRouter as Router} from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Root from './Root';
+import './App.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
+export default function App() {
+  const [theme,setTheme] = useState(true);
+  useEffect(() => {
+    AOS.init({
+      duration : 2000,
+    });
+    AOS.refresh();
+  }, []);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div className={theme ? 'dark' : ''}>
+        <div className="dark:bg-gray-900 bg-gray-100 dark:text-zinc-100 min-h-screen">
+          <Navbar setTheme={setTheme} Theme={theme}></Navbar>
+          <Root />
+        </div>
+      </div>
+    </Router>
+  )
 }
-
-export default App;
