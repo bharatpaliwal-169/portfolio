@@ -8,7 +8,7 @@ import Contact from './containers/contact'
 export default function Root() {
   return (
     
-      <div className='wrapper'>
+      <React.Fragment>
         <Switch>
           <Route exact path='/'>
             <Redirect to ='/home'></Redirect>
@@ -31,6 +31,6 @@ export default function Root() {
           </Route>
           
         </Switch>
-      </div>
+      </React.Fragment>
   )
 }

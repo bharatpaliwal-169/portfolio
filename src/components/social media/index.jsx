@@ -1,5 +1,5 @@
 import React from 'react';
-import {socialLinks} from '../../constants/Links'; 
+import {socialLinks} from '../../constants/Links';
 import './media.css'
 export default function Links() {
   return (
@@ -55,12 +55,9 @@ export default function Links() {
     </div>
     <br />
     <div className='text-left ml-10 '>
-      <button className='px-10 py-4 rounded-lg bg-blue-500 text-blue-100 
-      hover:bg-blue-300 shadow-2xl text-xl' >
-        <a href="/contact"rel="noopener noreferrer" >
+        <a className='btn btn-lg btn-primary p-3'href="/contact"rel="noopener noreferrer" >
           Contact Me
         </a>
-      </button>
     </div>
     </>
   )

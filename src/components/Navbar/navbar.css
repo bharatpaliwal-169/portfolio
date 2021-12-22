@@ -1,0 +1,26 @@
+.themeBtn{ 
+  padding: 0.5rem;
+  background: transparent;
+  font-size: 1.5rem;
+  margin : 0.75rem;
+}
+.brands{
+  font-size: 2.25rem!important;
+  font-weight: bold;
+  font-family : 'Open Sans bold', sans-serif;
+}
+.comp{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family : 'Open Sans bold', sans-serif;
+  padding: 1rem;
+}
+.comp-item{
+  padding-left:1rem!important;
+  padding-right:1rem!important;
+}
+.comp-item:hover{
+  color: #F3F3F3;
+  opacity: 0.8;
+  transform : scale(1.1);
+}

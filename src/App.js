@@ -1,12 +1,18 @@
 import React,{useState,useEffect} from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
+
+
 import Navbar from './components/Navbar';
 import Root from './Root';
-import './App.css'
+import Footer from './components/Footer';
+import './Global.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 export default function App() {
-  const [theme,setTheme] = useState(true);
+
+  const defaultTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const [theme, setTheme] = useState(defaultTheme); 
   useEffect(() => {
     AOS.init({
       duration : 2000,
@@ -16,11 +22,10 @@ export default function App() {
   
   return (
     <Router>
-      <div className={theme ? 'dark' : ''}>
-        <div className="dark:bg-gray-900 bg-gray-100 dark:text-zinc-100 min-h-screen">
-          <Navbar setTheme={setTheme} Theme={theme}></Navbar>
-          <Root />
-        </div>
+      <div className='app' data-theme={theme}>
+        <Navbar Theme={theme} setTheme={setTheme} />
+        <Root />
+        <Footer></Footer>
       </div>
     </Router>
   )
