@@ -36,7 +36,7 @@ export default function List() {
                     View
                   </a>
                   <a className='btn btn-md btn-outline-secondary' 
-                    href={project.projectUrl} target="_blank" rel="noopener noreferrer" >
+                    href={project.githubtUrl} target="_blank" rel="noopener noreferrer" >
                     Github <i className="fab fa-github"></i>
                   </a>
                 </div>
