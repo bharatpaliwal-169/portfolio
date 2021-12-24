@@ -1,7 +1,6 @@
 import React from 'react'
 import Tilt from 'react-tilt'
 import {certificates} from '../../constants/Certificate'
-import './edu.css'
 export default function Certifications() {
   return (
     <div className='container-fluid'>

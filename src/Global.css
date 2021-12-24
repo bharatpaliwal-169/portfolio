@@ -16,3 +16,27 @@
   font-family: "Open Sans bold", sans-serif;
   font-weight:bold;
 }
+.sub-heading{
+  font-size:1.75rem;
+  font-family: "Open Sans medieum", sans-serif;
+  font-weight:600;
+}
+ul{
+  list-style-type:none;
+}
+li{
+  padding:1rem;
+  font-size:1.25rem;
+}
+.rounded{
+  border-radius: 10%!important;
+}
+
+.ctmCard{
+  border: 2px solid #3F525B!important;
+  border-radius: 25px!important;
+}
+.ctmCard:hover{
+  box-shadow:  9px 9px 18px #1a172c,
+              -9px -9px 18px #221f39;
+}

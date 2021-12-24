@@ -1,5 +1,6 @@
 import React from 'react';
-import Greeting from '../../components/Greetings'
+import Typewriter from 'typewriter-effect';
+import Greet from '../../assets/images/try.gif'
 import Media from '../../components/social media';
 import Wid from './wid';
 import Stack from './stack'
@@ -16,19 +17,29 @@ export default function Home() {
             </h1>
             <h3 className='mb-5'>
               I'm <span className='intro'>Bharat Paliwal </span>
-              Front-end Developer, <br/>
+              <br />
+              <br />
+              <Typewriter
+                options={{
+                  strings: ['Front-end Developer', 'Competitive Programmer',
+                  'Software Developement Enthusiast'],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+              <br/>
               Active Learner and Explorer🔥
             </h3>
             <Media />
-            <div className='text-left ml-10 mt-3'>
-              <a className='btn btn-lg btn-outline-light p-md-3 ms-md-5'href="/contact"rel="noopener noreferrer" >
-                Contact Me
-              </a>
-            </div>
+            <a className='btn btn-lg btn-outline-light'href="/contact"rel="noopener noreferrer" >
+              Contact Me
+            </a>
+            
           </section>
           
           <section className="col-12 col-md-5">
-            <Greeting></Greeting>
+            {/* <Greeting></Greeting> */}
+            <img src={Greet} alt="Hello" className='img-responsive img-fluid greet' />
           </section>
         </div>
         <Wid></Wid>

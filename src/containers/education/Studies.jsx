@@ -1,7 +1,7 @@
 import React from 'react'
 import Tilt from 'react-tilt';
 import Schools from './Studies2'
-import './edu.css'
+
 import Clg from '../../assets/images/Clg_logo.png';
 
 export default function Studies() {
@@ -12,22 +12,22 @@ export default function Studies() {
         <p>Acadmics</p>
       </section>
       
-      <div className='col-4 col-md-3 offset-md-1' data-aos='fade-right'>
+      <div className='col-12 col-md-3 offset-md-1' data-aos='fade-right'>
         <Tilt options={{max:15, scale:1 , speed:300,reset:true , }}>
           <img src={Clg} alt="loading" className='img-responsive img-fluid rounded' />
         </Tilt>
       </div>
 
-      <div className='col-6 col-md-7'data-aos='fade-left'>
+      <div className='col-12 col-md-7'data-aos='fade-left'>
         <Tilt options={{max:15, scale:1 , speed:300,reset:true , }}>
         <section className='ctmCard card bg-transparent'>
           <div className='card-header row'>
-            <p className='mt-4 col-8 sub-heading'>The LNM Institute of Information Technology</p>
-            <p className='mt-4 col-3 float-end ms-5'>2018 - Present</p>
-            <p className='text-muted'>B.tech ECE</p>
+            <p className='mt-3 col-12 col-md-8 sub-heading'>The LNM Institute of Information Technology</p>
+            <p className='mt-4 col-12 col-md-3 float-end ms-md-5'>2018 - Present</p>
+            <p className=''>B.tech ECE</p>
           </div>
           <hr />
-          <div className='card-body'>
+          <div className='card-body text-muted'>
             <p>
             ⚡ Currently pursuing my batchlors in Electronic and Communications.
             </p>

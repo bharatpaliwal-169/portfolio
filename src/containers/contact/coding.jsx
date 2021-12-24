@@ -4,15 +4,15 @@ import binary from '../../assets/images/Typing-bro.svg'
 export default function coding() {
   return (
     <div className='row mt-5'>
-      <section className='col-12 text-center mb-5 heading'>
+      <section className='col-12 text-center mb-5 heading' data-aos = 'fade-up'>
         Coding Plateforms Profiles 
       </section>
       
-      <section className='col-12 col-md-7 text-center'>
+      <section className='col-12 col-md-7 text-center mt-5' data-aos = 'fade-right'>
         <div className="row">
           {codingLinks.map((item)=>{
             return(
-              <div className='col-12 mt-5 mb-5'>
+              <div className='col-12 mt-3 mb-3'>
                 <section>
                   <a href={item.url} className='btn btn-lg btn-outline-light' 
                   target="_blank" rel="noopener noreferrer" >
@@ -24,7 +24,7 @@ export default function coding() {
           })}
         </div>
       </section>
-      <section className='col-12 col-md-4 '>
+      <section className='col-12 col-md-4' data-aos='fade-left'>
         <img src={binary} alt="loading" className='img-responsive img-fluid' />
       </section>
 
