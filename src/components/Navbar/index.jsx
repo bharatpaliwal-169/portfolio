@@ -15,7 +15,7 @@ export default function Header({Theme,setTheme}){
             <Nav.Link className="active comp-item" href="/education">Education</Nav.Link>
             <Nav.Link className="active comp-item" href="/experience">Experience</Nav.Link>
             <Nav.Link className="active comp-item" href="/projects">Projects</Nav.Link>
-            <Nav.Link className="active comp-item" href="/contacts">Contact</Nav.Link>
+            <Nav.Link className="active comp-item" href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>

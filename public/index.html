@@ -2,6 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="./assets/logo.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Bharat Paliwal Protfolio website"/>
+    <meta name="theme-color" content="#232c34" />
+    <meta content="bharat ,paliwal" name="keywords">
+    <meta property="og:title" content="Bharat Paliwal">
+    <meta property="og:image" content="./assets/logo.jpeg">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="task-list23.netlify.app">
+    <meta property="og:description" content="Bharat Paliwal - A PWA React Protfolio">
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="Bharat Paliwal">
+    <meta name="twitter:description" content="Bharat Paliwal - A PWA React Protfolio">
+    <meta name="twitter:image" content="./assets/logo.jpeg">
+    <link rel="apple-touch-icon" href="./assets/logo.jpeg" />
+    <link rel="manifest" href="./manifest.json" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
     crossorigin="anonymous"/>
@@ -10,5 +28,14 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      if('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./serviceworker.js')
+                .then((reg) => console.log('Success: ', reg.scope))
+                .catch((err) => console.log('Failure: ', err));
+        })
+      }
+    </script>
   </body>
 </html>

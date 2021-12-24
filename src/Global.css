@@ -1,6 +1,7 @@
 *{
   padding:0;margin:0;
   box-sizing:border-box;
+  /* overflow-x:hidden; */
 }
   
 .app{
@@ -9,4 +10,9 @@
     #403F44 , #1E1B32
   );
   color: #f3f3f3;
+}
+.heading{
+  font-size:3rem;
+  font-family: "Open Sans bold", sans-serif;
+  font-weight:bold;
 }

@@ -54,11 +54,7 @@ export default function Links() {
       </div>
     </div>
     <br />
-    <div className='text-left ml-10 '>
-        <a className='btn btn-lg btn-primary p-3'href="/contact"rel="noopener noreferrer" >
-          Contact Me
-        </a>
-    </div>
+    
     </>
   )
 }

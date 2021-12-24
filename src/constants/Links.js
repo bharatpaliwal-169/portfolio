@@ -5,3 +5,26 @@ export const socialLinks = {
   instagram : 'https://www.instagram.com/_bharat_231/',
   gmail : 'paliwalbdevop@gmail.com'
 }
+
+export const codingLinks = [
+  {
+    name : 'LeetCode',
+    img : '/assets/leetcode.svg',
+    url : 'https://leetcode.com/not_a_pro_coder/'
+  },
+  {
+    name : 'codeChef',
+    img : '/assets/codechef.svg',
+    url : 'https://www.codechef.com/users/gapuri'
+  },
+  {
+    name : 'HackerEarth',
+    img : '/assets/hackerearth.svg',
+    url : 'https://www.hackerearth.com/@bharat_231'
+  },
+  // {
+  //   name : 'HackerRank',
+  //   img : '/assets/hackerrank.jpg',
+  //   url : 'https://www.hackerrank.com/bpcollege18'
+  // },
+]

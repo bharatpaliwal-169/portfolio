@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
   <React.StrictMode>
     <CursorProvider
-      color="white"
+      color="gray"
       ringSize={25}
       transitionTime={75}
     >
