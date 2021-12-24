@@ -22,7 +22,7 @@ export default function Home() {
               <Typewriter
                 options={{
                   strings: ['Front-end Developer', 'Competitive Programmer',
-                  'Software Developement Enthusiast'],
+                  'Software Developer Engineer'],
                   autoStart: true,
                   loop: true,
                 }}
@@ -31,14 +31,14 @@ export default function Home() {
               Active Learner and Explorer🔥
             </h3>
             <Media />
-            <a className='btn btn-lg btn-outline-light'href="/contact"rel="noopener noreferrer" >
-              Contact Me
-            </a>
-            
+            <div className="text-center">  
+              <a className='btn btn-lg btn-outline-light me-md-5 ps-md-5 pe-md-5' href="/contact"rel="noopener noreferrer" >
+                Connect with me
+              </a>
+            </div>
           </section>
           
           <section className="col-12 col-md-5">
-            {/* <Greeting></Greeting> */}
             <img src={Greet} alt="Hello" className='img-responsive img-fluid greet' />
           </section>
         </div>

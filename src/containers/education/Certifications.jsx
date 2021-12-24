@@ -13,7 +13,7 @@ export default function Certifications() {
           <div className='row'>
             {certificates.map( item => {
               return(
-                <div className='col-2 col-md-4 p-3'>
+                <div className='col-12 col-md-4 p-3'>
                   <Tilt options={{max:15, scale:1 , speed:300,reset:true , }}>
                     <section className='ctmCard card bg-transparent'>
                       <div className='card-header m-0 p-0'>

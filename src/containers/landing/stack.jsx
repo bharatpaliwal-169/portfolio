@@ -7,7 +7,7 @@ export default function stack() {
       <section className='col-12 heading mt-5 mb-5 text-center'>
         <p> Have a look on my tech stack </p>
       </section>
-      <section className='col-12 col-md-5 offset-md-1' data-aos='fade-right'>
+      <section className='col-12 col-md-5 offset-md-1' data-aos='fade-up'>
         <div className="row">
           {stackLinks.map( (item,name) => {
             return (
@@ -20,7 +20,7 @@ export default function stack() {
           })}
         </div>
       </section>
-      <section className='col-12 col-md-5' data-aos='fade-left'>
+      <section className='col-12 col-md-5' data-aos='fade-up'>
         <img src={Stackimg} alt="loading..."  className="img-responsive img-fluid" />
       </section>
     </div>

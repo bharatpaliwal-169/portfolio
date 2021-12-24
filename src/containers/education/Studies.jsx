@@ -12,13 +12,13 @@ export default function Studies() {
         <p>Acadmics</p>
       </section>
       
-      <div className='col-12 col-md-3 offset-md-1' data-aos='fade-right'>
+      <div className='col-12 col-md-3 offset-md-1 mt-3' data-aos='fade-in'>
         <Tilt options={{max:15, scale:1 , speed:300,reset:true , }}>
           <img src={Clg} alt="loading" className='img-responsive img-fluid rounded' />
         </Tilt>
       </div>
 
-      <div className='col-12 col-md-7'data-aos='fade-left'>
+      <div className='col-12 col-md-7 m-2'data-aos='fade-up'>
         <Tilt options={{max:15, scale:1 , speed:300,reset:true , }}>
         <section className='ctmCard card bg-transparent'>
           <div className='card-header row'>

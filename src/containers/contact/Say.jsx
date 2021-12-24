@@ -67,37 +67,39 @@ export default function Say() {
   
   return (
     <div className='row'>
-      <section className='col-12 text-center mt-5 mb-5 heading'>
+      <section className='col-12 text-center mt-5 mb-5 heading' data-aos='fade-up'>
         Want to say something?
       </section>
-      <section className='col-12 col-md-10 offset-md-1 text-center card bg-transparent ctmCard'>
-          {viewAlert && <Alert variant='success' className='alert mt-4'>Msg sent</Alert>}
+      <section className='col-12 col-md-10 offset-md-1 text-center card bg-transparent ctmCard'
+      data-aos='fade-in'>
+          {viewAlert && 
+            <Alert variant='success' className='alert mt-4'>
+              Message Sent Successfully👍
+            </Alert>}
           <Form className='mt-5'>
               <Form.Group controlId="formBasicEmail">
                 <Form.Control type="email"
-                              placeholder="Enter email" 
-                              autoFocus
-                              name='email'
-                              value={connect.email}
-                              onChange={handleChange}
-                              required />
+                  placeholder="Enter email" 
+                  name='email'
+                  value={connect.email}
+                  onChange={handleChange}
+                  />
               </Form.Group>
               <br />
               <Form.Group controlId="formBasicPassword">
                 <Form.Control as="textarea" 
-                              placeholder="Type your message here...."
-                              autoFocus
-                              name='message'
-                              value={connect.message}
-                              onChange={handleChange}
-                              required />
+                  placeholder="Type your message here...."
+                  name='message'
+                  value={connect.message}
+                  onChange={handleChange}
+                />
               </Form.Group>
               <br />
-              <Button variant='outline-success'
+              <Button variant='outline-light'
                       size="lg" type="submit"
                       onClick={handleSubmit}
                       className='mb-4'>
-                Send 
+                Send Message
               </Button>
             </Form>
       </section>

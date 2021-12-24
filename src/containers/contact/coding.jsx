@@ -8,7 +8,7 @@ export default function coding() {
         Coding Plateforms Profiles 
       </section>
       
-      <section className='col-12 col-md-7 text-center mt-5' data-aos = 'fade-right'>
+      <section className='col-12 col-md-7 text-center mt-5' data-aos = 'fade-up'>
         <div className="row">
           {codingLinks.map((item)=>{
             return(
@@ -24,7 +24,7 @@ export default function coding() {
           })}
         </div>
       </section>
-      <section className='col-12 col-md-4' data-aos='fade-left'>
+      <section className='col-12 col-md-4' data-aos='fade-up'>
         <img src={binary} alt="loading" className='img-responsive img-fluid' />
       </section>
 

@@ -13,7 +13,7 @@ export const codingLinks = [
     url : 'https://leetcode.com/not_a_pro_coder/'
   },
   {
-    name : 'codeChef',
+    name : 'CodeChef',
     img : '/assets/codechef.svg',
     url : 'https://www.codechef.com/users/gapuri'
   },

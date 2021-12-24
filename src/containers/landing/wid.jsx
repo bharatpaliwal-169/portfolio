@@ -6,11 +6,11 @@ export default function wid() {
       <div className="heading text-center mt-5 mb-5"data-aos='fade-up'>
         <p> Here's What I do </p>
       </div>
-      <section className="col-12 col-md-4 offset-md-1" data-aos='fade-right'>
+      <section className="col-12 col-md-4 offset-md-1" data-aos='fade-up'>
         <Fs></Fs>
       </section>
 
-      <section className="col-12 col-md-6" data-aos='fade-left'>
+      <section className="col-12 col-md-6" data-aos='fade-up'>
         <ul>
           <li>
             ⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications
