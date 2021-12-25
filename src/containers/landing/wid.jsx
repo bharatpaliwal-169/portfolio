@@ -13,10 +13,10 @@ export default function wid() {
       <section className="col-12 col-md-6" data-aos='fade-up'>
         <ul>
           <li>
-            ⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications
+            ⚡ Develop highly interactive Frontend UIs for web and mobile applications.
           </li>
           <li>
-            ⚡ Building responsive website front end using ReactJS
+            ⚡ Building responsive website front end using ReactJS.
           </li>
           <li>
             ⚡ Creating application backend in Node, Express & django.

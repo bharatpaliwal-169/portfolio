@@ -10,13 +10,12 @@ export default function Studies2() {
           <div className='card-header row'>
             <p className='mt-3 col-12 col-md-8 sub-heading'>All Saints Sr Sec School,Ajmer</p>
             <h5 className='mt-4 col-12 col-md-4 float-end'>2017-2018</h5>
-            <p className=''>XII - CBSE</p>
+            <p className=''>XII - CBSE (82%)</p>
           </div>
           <hr />
           <div className='card-body text-muted'>
             <p>
-            ⚡ Completed higher school with Physics,Chemistry and Mathematics as majors.
-              Scored 82% in Boards
+            ⚡ Completed higher school with Physics,Chemistry and Mathematics.
             </p>
           </div>
         </section>
@@ -28,7 +27,7 @@ export default function Studies2() {
           <div className='card-header row'>
             <p className='mt-3 col-12  col-md-8 sub-heading'>St Paul's Sr Sec School,Beawar</p>
             <h5 className='mt-4 col-12 col-md-4 float-end'>2015-2016</h5>
-            <p className=''>X - CBSE</p>
+            <p className=''>X - CBSE (10 CGPA)</p>
           </div>
           <hr />
           <div className='card-body text-muted'>
