@@ -8,13 +8,13 @@ export default function coding() {
         Coding Plateforms Profiles 
       </section>
       
-      <section className='col-12 col-md-7 text-center mt-5' data-aos = 'fade-up'>
+      <section className='col-12 col-md-6 text-center mt-5' data-aos = 'fade-up'>
         <div className="row">
           {codingLinks.map((item)=>{
             return(
               <div className='col-12 mt-3 mb-3'>
                 <section>
-                  <a href={item.url} className='btn btn-lg btn-outline-light' 
+                  <a href={item.url} className='btn btn-lg btn-outline-light w-50' 
                   target="_blank" rel="noopener noreferrer" >
                     {item.name}
                   </a>
@@ -24,7 +24,7 @@ export default function coding() {
           })}
         </div>
       </section>
-      <section className='col-12 col-md-4' data-aos='fade-up'>
+      <section className='col-12 col-md-5' data-aos='fade-up'>
         <img src={binary} alt="loading" className='img-responsive img-fluid' />
       </section>
 

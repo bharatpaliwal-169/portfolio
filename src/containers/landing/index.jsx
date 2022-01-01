@@ -13,7 +13,7 @@ export default function Home() {
         <div className="row" data-aos='fade-up'>
           <section className="col-12 col-md-5 offset-md-1  mt-5 " >
             <h1 className='mb-3'>
-            Hello 👋,  
+            Hello 👋 ,  
             </h1>
             <h3 className='mb-5'>
               I'm <span className='intro'>Bharat Paliwal </span>
@@ -31,8 +31,8 @@ export default function Home() {
               Active Learner and Explorer🔥
             </h3>
             <Media />
-            <div className="text-center">  
-              <a className='btn btn-lg btn-outline-light me-md-5 ps-md-5 pe-md-5' href="/contact"rel="noopener noreferrer" >
+            <div className="text-left">  
+              <a className='btn btn-lg btn-outline-light' href="/contact"rel="noopener noreferrer" >
                 Connect with me
               </a>
             </div>

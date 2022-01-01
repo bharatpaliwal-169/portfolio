@@ -10,7 +10,11 @@ export const codingLinks = [
   {
     name : 'LeetCode',
     img : '/assets/leetcode.svg',
-    url : 'https://leetcode.com/not_a_pro_coder/'
+    url : 'https://leetcode.com/gapuri/'
+  },
+  {
+    name : 'BinarySearch',
+    url : 'https://binarysearch.com/@/gapuri_op'
   },
   {
     name : 'CodeChef',
@@ -22,9 +26,9 @@ export const codingLinks = [
     img : '/assets/hackerearth.svg',
     url : 'https://www.hackerearth.com/@bharat_231'
   },
-  // {
-  //   name : 'HackerRank',
-  //   img : '/assets/hackerrank.jpg',
-  //   url : 'https://www.hackerrank.com/bpcollege18'
-  // },
+  {
+    name : 'HackerRank',
+    img : '/assets/hackerrank.jpg',
+    url : 'https://www.hackerrank.com/bpcollege18'
+  },
 ]

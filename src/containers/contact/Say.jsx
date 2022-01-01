@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import {Form,Button,Alert} from 'react-bootstrap'
+import './contact.css'
 export default function Say() {
   const [connect,setConnect] = useState({
     email : "",
@@ -70,19 +71,20 @@ export default function Say() {
       <section className='col-12 text-center mt-5 mb-5 heading' data-aos='fade-up'>
         Want to say something?
       </section>
-      <section className='col-12 col-md-10 offset-md-1 text-center card bg-transparent ctmCard'
+      <section className='col-12 col-md-8 offset-md-2 text-center card bg-transparent ctmCard'
       data-aos='fade-in'>
           {viewAlert && 
             <Alert variant='success' className='alert mt-4'>
               Message Sent Successfully👍
             </Alert>}
-          <Form className='mt-5'>
+          <Form className='mt-5 px-3'>
               <Form.Group controlId="formBasicEmail">
                 <Form.Control type="email"
                   placeholder="Enter email" 
                   name='email'
                   value={connect.email}
                   onChange={handleChange}
+                  className='user-input'
                   />
               </Form.Group>
               <br />
@@ -92,6 +94,7 @@ export default function Say() {
                   name='message'
                   value={connect.message}
                   onChange={handleChange}
+                  className='user-input'
                 />
               </Form.Group>
               <br />
