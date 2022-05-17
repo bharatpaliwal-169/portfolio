@@ -1,4 +1,3 @@
-#A Portfolio PWA 
-
+# A Portfolio PWA 
 Created by and for 
 ## Bharat Paliwal
