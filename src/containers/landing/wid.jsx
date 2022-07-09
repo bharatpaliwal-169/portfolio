@@ -3,7 +3,7 @@ import Fs from '../../components/svgs/fs'
 export default function wid() {
   return (
     <div className="row">
-      <div className="heading text-center mt-5 mb-5"data-aos='fade-up'>
+      <div className="heading text-center mt-5 mb-5" data-aos='fade-up'>
         <p> Here's What I do </p>
       </div>
       <section className="col-12 col-md-4 offset-md-1" data-aos='fade-up'>
@@ -13,16 +13,16 @@ export default function wid() {
       <section className="col-12 col-md-6" data-aos='fade-up'>
         <ul>
           <li>
-            ⚡ Develop highly interactive Frontend UIs for web and mobile applications.
+            ⚡ Build highly interactive and Responsive UI for software applications.
           </li>
           <li>
-            ⚡ Building responsive website front end using ReactJS.
+            ⚡ Builds PWA website/webapps using MERN Stack.
           </li>
           <li>
-            ⚡ Creating application backend in Node, Express & django.
+            ⚡ Love to solve real-life problems using code.
           </li>
           <li>
-            ⚡ CI/CD using third party services such as Firebase/ Heroku / Netlify.
+            ⚡ Exploreing latest tools n technology.
           </li>
         </ul>
       </section>

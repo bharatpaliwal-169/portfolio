@@ -13,11 +13,12 @@ export default function Projects() {
           <div className='heading mt-5 mb-4 text-center'>
             <p>Projects</p>
           </div>
-          <div className="text-muted">
+          <div className="text-muted text-justify">
             <h5>
-            I build projects by using a vast variety of latest technology tools.
-            My best experience is to create React.Js Frontend Projects, django backend projects and Python Projects. 
-            Below are some of my projects.
+              I build projects using latest technology and tools. <br />
+              I have Projects in MERN Stack,Java Stack and Django-Python Stack. 
+              I master Bootstrap and pratice UI development using material-ui, tailwandCSS too. 
+              I also have hands-on experience using RDBMS(MySql,PostgreSQL) and MongoDB. 
             </h5>
           </div>
         </div>
@@ -26,7 +27,7 @@ export default function Projects() {
       <List></List>
       <div className="row mt-5 mb-5">
         <div className="col-12 text-center">
-          <a className='btn btn-md btn-outline-light' 
+          <a className='btn btn-md btn-outline-light bg-gradient' 
             href='https://github.com/bharatpaliwal-169' target="_blank" rel="noopener noreferrer" >
             More Projects <i className="fab fa-github"></i>
           </a>

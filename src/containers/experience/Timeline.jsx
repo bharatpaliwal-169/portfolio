@@ -8,13 +8,13 @@ export default function Timeline() {
           <section className='ctmCard card bg-transparent'>
             <div className='card-header row'>
               <p className='mt-3 col-12  col-md-9 sub-heading'>Mahindra Comviva</p>
-              <h5 className='mt-4 col-12 col-md-3 float-end'>2021-Present</h5>
-              <p className=''>Product Development Engineer Intern</p>
+              <h5 className='mt-4 col-12 col-md-3 float-end'>Jan 2022-Present</h5>
+              <p className=''>Product Development Engineer Trainee</p>
             </div>
             <hr />
             <div className='card-body text-muted'>
               <p>
-              ⚡ Currently, I'm  going to work here as Intern.
+              ⚡ Currently, I'm interning here as PDE trainee. Learning and enhancing Real-life major projects.
               </p>
             </div>
           </section>
@@ -27,7 +27,7 @@ export default function Timeline() {
             <div className='card-header row'>
               <p className='mt-3 col-12  col-md-9 sub-heading'>KeywordsFly Pvt Ltd</p>
               <h5 className='mt-4 col-12 col-md-3 float-end'>2 Months</h5>
-              <p className=''>FrontEnd Developer Intern</p>
+              <p className=''>Frontend Developer Intern</p>
             </div>
             <hr />
             <div className='card-body text-muted'>
@@ -74,7 +74,7 @@ export default function Timeline() {
       <div className='col-12 text-center mt-5 mb-5'>
         <a href="https://www.linkedin.com/in/bharat-paliwal-ab7169179/" 
         target="_blank" rel="noopener noreferrer"
-        className='btn btn-lg btn-outline-light'>
+        className='btn btn-lg btn-outline-light bg-gradient'>
           Know more
         </a>
       </div>

@@ -13,7 +13,7 @@ export default function Home() {
         <div className="row" data-aos='fade-up'>
           <section className="col-12 col-md-5 offset-md-1  mt-5 " >
             <h1 className='mb-3'>
-            Hello 👋 ,  
+            Hello 👋   
             </h1>
             <h3 className='mb-5'>
               I'm <span className='intro'>Bharat Paliwal </span>
@@ -21,19 +21,19 @@ export default function Home() {
               <br />
               <Typewriter
                 options={{
-                  strings: ['Front-end Developer', 'Competitive Programmer',
-                  'Software Developer Engineer'],
+                  strings: ['Software Engineer','Frontend Developer',
+                  'Competitive Programmer'],
                   autoStart: true,
                   loop: true,
                 }}
               />
               <br/>
-              Active Learner and Explorer🔥
+              Active Learner and Explorer.🔥
             </h3>
             <Media />
             <div className="text-left">  
-              <a className='btn btn-lg btn-outline-light' href="/contact"rel="noopener noreferrer" >
-                Connect with me
+              <a className='btn btn-lg btn-outline-light bg-gradient' href="/contact"rel="noopener noreferrer" >
+                About Me
               </a>
             </div>
           </section>
