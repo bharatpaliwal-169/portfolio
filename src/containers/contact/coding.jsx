@@ -10,10 +10,10 @@ export default function coding() {
       
       <section className='col-12 col-md-6 text-center mt-5' data-aos = 'fade-up'>
         <div className="row">
-          {codingLinks.map((item)=>{
+          {codingLinks.map((item,index)=>{
             return(
               <div className='col-12 mt-3 mb-3'>
-                <section>
+                <section key={index}>
                   <a href={item.url} className='btn btn-lg btn-outline-light w-50' 
                   target="_blank" rel="noopener noreferrer" >
                     {item.name}

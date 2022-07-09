@@ -26,13 +26,16 @@ export default function Exp() {
           <div className='text-muted'> 
             <ul>
               <li>
-              ⚡ I've completed 2 internships in summer'21.
+              ⚡ I'm currently doing SLI as Product Development Engineer Trainee @Comviva.
               </li>
               <li>
-              ⚡ I've mostly build projects on my own and I am actively looking for good SDE opportunities.
+              ⚡ I love to communicate and I'm up for healthy discussion over technology and life.
               </li>
               <li>
-              ⚡ I love to share my knowledge with others and I am open for healthy discussion over technology and life.
+              ⚡ I love building new tech projects and I work hard and smart to achieve my goals.
+              </li>
+              <li>
+              ⚡ Google, StackOverFlow and Github are my best buddies. 
               </li>
             </ul>
           </div>

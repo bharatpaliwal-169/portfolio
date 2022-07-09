@@ -5,9 +5,9 @@ import {projectList} from '../../constants/Projects'
 export default function List() {
   return (
     <div className='row mt-5 mb-5' data-aos='fade-up'>
-      {projectList.map(project =>{
+      {projectList.map((project,index) =>{
         return(
-          <div className='col-12 col-md-6 p-4' id={project.title}>
+          <div className='col-12 col-md-6 p-4' id={project.title} key={index}>
             <Tilt options={{max:15, scale:1 , speed:300,reset:true , }}>
               <section className='ctmCard card bg-transparent'>
                 <div className='card-header'>
@@ -31,13 +31,13 @@ export default function List() {
                 </div>
                 
                 <div className="card-footer p-4">
-                  <a className='btn btn-md btn-light me-3' 
+                  <a className='btn btn-md btn-outline-light me-3' 
                     href={project.projectUrl} target="_blank" rel="noopener noreferrer" >
-                    View
+                    view
                   </a>
-                  <a className='btn btn-md btn-outline-secondary' 
-                    href={project.githubtUrl} target="_blank" rel="noopener noreferrer" >
-                    Github <i className="fab fa-github"></i>
+                  <a className='btn btn-md btn-outline-secondary bg-gradient' 
+                    href={project.githubUrl} target="_blank" rel="noopener noreferrer" >
+                    github <i className="fab fa-github"></i>
                   </a>
                 </div>
               </section>
