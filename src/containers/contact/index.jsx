@@ -19,11 +19,11 @@ export default function contacts() {
             <p>Contact Me</p>
           </div>
           <div className='text-muted'>
-            <h5>Connect with me at the following plateforms, I'll communicate with you ASAP😊. </h5>
+            <h5>Connect with me at the following social media plateforms, I'll get in touch with you ASAP😊. </h5>
           </div>
           <Media></Media>
           <a className='btn btn-lg btn-outline-light' 
-              href="https://drive.google.com/file/d/1o1ec8Jj8TB3LquMiE7b8Jm3wcIa7ygSb/view?usp=sharing" 
+              href="https://drive.google.com/file/d/14QopAjM-kNvseDaS0pvj90XerX5DhuGp/view?usp=sharing" 
               target="_blank" rel="noopener noreferrer">
             View Resume
           </a>

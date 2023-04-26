@@ -10,11 +10,7 @@ export const codingLinks = [
   {
     name : 'LeetCode',
     img : '/assets/leetcode.svg',
-    url : 'https://leetcode.com/gapuri/'
-  },
-  {
-    name : 'BinarySearch',
-    url : 'https://binarysearch.com/@/gapuri_op'
+    url : 'https://leetcode.com/bharat231/'
   },
   {
     name : 'CodeChef',

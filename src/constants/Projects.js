@@ -15,7 +15,7 @@ export const projectList = [
   },
   {
     title : 'Giggle Search',
-    projectUrl : 'https://giggle-search.netlify.app/search',
+    projectUrl : '#',
     githubUrl : 'https://github.com/bharatpaliwal-169/giggle-search',
     description : 'Google Clone - PWA React Application , using Google Search API from RapidAPI build UI that looks-a-like Google Search Engine',
     stack : ['React' , 'TailwindCSS','RapidAPI']
